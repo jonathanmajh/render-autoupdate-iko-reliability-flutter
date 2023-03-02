@@ -18,7 +18,7 @@ if (process.env.ANALYTICS_TOKEN) {
 }
 
 var myNuts = nuts.Nuts({
-    repository: 'jonathanmajh/iko_mro_items',
+    repository: 'jonathanmajh/iko_reliability',
     token: process.env.GITHUB_TOKEN,
     endpoint: process.env.GITHUB_ENDPOINT,
     username: process.env.GITHUB_USERNAME,
